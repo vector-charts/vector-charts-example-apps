@@ -1,2 +1,2 @@
 # vector-charts-example-app
-Example usage of the Vector Charts API using Mapbox GL JS.
+Example applications demonstrating usage of the Vector Charts API using Mapbox GL JS.
