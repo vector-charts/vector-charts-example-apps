@@ -5,9 +5,10 @@ import { useEffect, useRef } from 'react';
 import CompassControl from '@mapbox-controls/compass';
 import ZoomControl from '@mapbox-controls/zoom';
 import mapboxgl from 'mapbox-gl';
+import { encodeGetParams } from '../utils/urlParameters';
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
-const baseStyleUrl = import.meta.env.VITE_VECTOR_CHARTS_API_PREFIX;
+const baseStyleUrl = import.meta.env.VITE_VECTOR_CHARTS_STYLE_URL;
 
 function Map() {
     const mapContainer = useRef(null);
