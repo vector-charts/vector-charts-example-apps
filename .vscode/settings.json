@@ -1,0 +1,19 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": ["javascript"],
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "files.exclude": {
+        "**/npm-debug.log": true,
+        "**/.env": true,
+        "**/.DS_Store": true,
+        "**/.idea/": true,
+        "**/.idea_modules/": true
+    },
+    "cmake.configureOnOpen": false
+}
