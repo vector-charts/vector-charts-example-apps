@@ -18,4 +18,5 @@ Each example is a separate React application. To run an app:
 - `example-3-leaflet-raster`: 2D raster map using Leaflet.
 - `example-4-openlayers-raster`: 2D raster map using OpenLayers.
 - `example-5-openlayers-vector`: Vector tiles using OpenLayers (Experimental, poor performance)
-- `example-2-maplibre`: MapLibre GL JS rendering 3D globe with vector tiles.
+- `example-6-maplibre`: MapLibre GL JS rendering 3D globe with vector tiles.
+- `example-7-mapbox-fonts`: Example of overriding the fontstack in Mapbox.
