@@ -1,0 +1,1848 @@
+{
+    "version": 8,
+    "sources": {
+        "data": {
+            "type": "vector",
+            "tiles": [
+                "https://api.vectorcharts.com/api/v1/tiles/enc-v1/{z}/{x}/{y}.mvt?token=f73f12ed4a4f4b6d878bb305d66deea3"
+            ],
+            "maxzoom": 14,
+            "minzoom": 0
+        }
+    },
+    "sprite": "https://api.vectorcharts.com/api/v1/static/sprites/rastersymbols-day",
+    "glyphs": "https://api.vectorcharts.com/api/v1/static/glyphs/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "basemap_background",
+            "type": "background",
+            "paint": {
+                "background-color": "#5aabfd"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_L_0",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_L_0",
+            "paint": {
+                "fill-color": "#3e9aeb"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_L_0_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_L_0",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_K_200",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_K_200",
+            "paint": {
+                "fill-color": "#60b5ff"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_K_200_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_K_200",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_J_1000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_J_1000",
+            "paint": {
+                "fill-color": "#7cc2ff"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_J_1000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_J_1000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_I_2000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_I_2000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_I_2000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_I_2000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_H_3000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_H_3000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_H_3000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_H_3000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_G_4000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_G_4000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_G_4000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_G_4000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_F_5000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_F_5000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_F_5000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_F_5000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_E_6000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_E_6000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_E_6000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_E_6000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_D_7000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_D_7000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_D_7000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_D_7000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_C_8000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_C_8000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_C_8000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_C_8000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_B_9000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_B_9000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_B_9000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_B_9000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_A_10000",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_A_10000",
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_bathymetry_A_10000_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_bathymetry_A_10000",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 0.2
+            }
+        },
+        {
+            "id": "basemap_ne_10m_land",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_land",
+            "paint": {
+                "fill-color": "#e0d594"
+            }
+        },
+        {
+            "id": "basemap_ne_10m_land_outline",
+            "type": "line",
+            "source": "data",
+            "source-layer": "basemap_ne_10m_land",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_depare_0",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_depare",
+            "filter": [
+                "all",
+                [
+                    "<",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    0
+                ]
+            ],
+            "paint": {
+                "fill-color": "#83b295"
+            }
+        },
+        {
+            "id": "s57_depare_1",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_depare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    0
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    2
+                ]
+            ],
+            "paint": {
+                "fill-color": "#3e9aeb"
+            }
+        },
+        {
+            "id": "s57_depare_2",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_depare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    2
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    4
+                ]
+            ],
+            "paint": {
+                "fill-color": "#60b5ff"
+            }
+        },
+        {
+            "id": "s57_depare_3",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_depare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    4
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    8
+                ]
+            ],
+            "paint": {
+                "fill-color": "#7cc2ff"
+            }
+        },
+        {
+            "id": "s57_depare_4",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_depare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    8
+                ]
+            ],
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "s57_fairwy_0",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_fairwy",
+            "filter": [
+                "all",
+                [
+                    "<",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    0
+                ]
+            ],
+            "paint": {
+                "fill-color": "#83b295"
+            }
+        },
+        {
+            "id": "s57_fairwy_1",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_fairwy",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    0
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    2
+                ]
+            ],
+            "paint": {
+                "fill-color": "#3e9aeb"
+            }
+        },
+        {
+            "id": "s57_fairwy_2",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_fairwy",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    2
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    4
+                ]
+            ],
+            "paint": {
+                "fill-color": "#60b5ff"
+            }
+        },
+        {
+            "id": "s57_fairwy_3",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_fairwy",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    4
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    8
+                ]
+            ],
+            "paint": {
+                "fill-color": "#7cc2ff"
+            }
+        },
+        {
+            "id": "s57_fairwy_4",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_fairwy",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    8
+                ]
+            ],
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "s57_drgare_0",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_drgare",
+            "filter": [
+                "all",
+                [
+                    "<",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    0
+                ]
+            ],
+            "paint": {
+                "fill-color": "#83b295"
+            }
+        },
+        {
+            "id": "s57_drgare_1",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_drgare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    0
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    2
+                ]
+            ],
+            "paint": {
+                "fill-color": "#3e9aeb"
+            }
+        },
+        {
+            "id": "s57_drgare_2",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_drgare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    2
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    4
+                ]
+            ],
+            "paint": {
+                "fill-color": "#60b5ff"
+            }
+        },
+        {
+            "id": "s57_drgare_3",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_drgare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    4
+                ],
+                [
+                    "<=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    8
+                ]
+            ],
+            "paint": {
+                "fill-color": "#7cc2ff"
+            }
+        },
+        {
+            "id": "s57_drgare_4",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_drgare",
+            "filter": [
+                "all",
+                [
+                    ">=",
+                    [
+                        "get",
+                        "DRVAL1"
+                    ],
+                    8
+                ]
+            ],
+            "paint": {
+                "fill-color": "#d4eaee"
+            }
+        },
+        {
+            "id": "s57_drgare_5",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_drgare",
+            "paint": {
+                "line-color": "#646464",
+                "line-width": 1,
+                "line-opacity": 0.5,
+                "line-dasharray": [
+                    5,
+                    5
+                ]
+            }
+        },
+        {
+            "id": "s57_unsare_1",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_unsare",
+            "paint": {
+                "fill-color": "#a7a7a7",
+                "fill-outline-color": "#888888",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "s57_depcnt",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_depcnt",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 0.5,
+                "line-opacity": 0.5
+            }
+        },
+        {
+            "id": "s57_tselne",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_tselne",
+            "paint": {
+                "line-color": "#e771ff",
+                "line-width": 1
+            }
+        },
+        {
+            "id": "s57_tselpt",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_tselpt",
+            "paint": {
+                "line-color": "#e771ff",
+                "line-width": 1,
+                "line-dasharray": [
+                    1,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "s57_tssbnd",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_tssbnd",
+            "paint": {
+                "line-color": "#e771ff",
+                "line-width": 1,
+                "line-dasharray": [
+                    2,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "s57_tsezne",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_tsezne",
+            "paint": {
+                "fill-color": "#e771ff",
+                "fill-opacity": 0.2
+            }
+        },
+        {
+            "id": "s57_tssron",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_tssron",
+            "paint": {
+                "line-color": "#e771ff",
+                "line-width": 1
+            }
+        },
+        {
+            "id": "s57_prcare",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_prcare",
+            "paint": {
+                "line-color": "#e771ff",
+                "line-width": 1,
+                "line-dasharray": [
+                    2,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "s57_achare",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_achare",
+            "paint": {
+                "line-color": "#e771ff",
+                "line-width": 2,
+                "line-dasharray": [
+                    2,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "s57_achare_2",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_achare",
+            "layout": {
+                "icon-image": "ACHARE51"
+            }
+        },
+        {
+            "id": "s57_lndare",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_lndare",
+            "paint": {
+                "fill-color": "#e0d594"
+            }
+        },
+        {
+            "id": "s57_buaare",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_buaare",
+            "paint": {
+                "fill-color": "#aca26c"
+            }
+        },
+        {
+            "id": "s57_buisgl",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_buisgl",
+            "paint": {
+                "fill-color": "#aca26c",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "s57_hulks_1",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_hulkes",
+            "paint": {
+                "fill-color": "#aca26c",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "s57_hulks_2",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_hulkes",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_airare",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_airare",
+            "paint": {
+                "fill-color": "#b9af75",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "s57_runway",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_runway",
+            "paint": {
+                "fill-color": "#aca26c"
+            }
+        },
+        {
+            "id": "s57_coalne",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_coalne",
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_slcons",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_slcons",
+            "paint": {
+                "line-color": "#5e5941",
+                "line-width": 2,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_lndare_2",
+            "type": "circle",
+            "source": "data",
+            "source-layer": "s57_lndare",
+            "filter": [
+                "all",
+                [
+                    "!=",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ],
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    10
+                ]
+            ],
+            "paint": {
+                "circle-radius": 3,
+                "circle-color": "#e0d594",
+                "circle-opacity": 1,
+                "circle-stroke-width": 1,
+                "circle-stroke-color": "#252525"
+            }
+        },
+        {
+            "id": "s57_uwtroc_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_uwtroc",
+            "layout": {
+                "icon-image": "UWTROC04"
+            }
+        },
+        {
+            "id": "s57_ponton_2",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_ponton",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ]
+            ],
+            "paint": {
+                "fill-opacity": 1,
+                "fill-color": "#b8aeae"
+            }
+        },
+        {
+            "id": "s57_ponton_1",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_ponton",
+            "paint": {
+                "line-color": "#5a553c",
+                "line-width": 1,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_pylons_2",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_pylons",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ]
+            ],
+            "paint": {
+                "fill-opacity": 0.2,
+                "fill-color": "#aca26c"
+            }
+        },
+        {
+            "id": "s57_pylons_1",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_pylons",
+            "paint": {
+                "line-color": "#5a553c",
+                "line-width": 1,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_bridge_2",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_bridge",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ]
+            ],
+            "paint": {
+                "fill-opacity": 0.2,
+                "fill-color": "#aca26c"
+            }
+        },
+        {
+            "id": "s57_bridge_1",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_bridge",
+            "paint": {
+                "line-color": "#5a553c",
+                "line-width": 2,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_rivers_0",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_rivers",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ]
+            ],
+            "paint": {
+                "fill-color": "#83b295"
+            }
+        },
+        {
+            "id": "s57_rivers_1",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_rivers",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "LineString"
+                ]
+            ],
+            "paint": {
+                "line-color": "#83b295",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "s57_rivers_2",
+            "type": "line",
+            "source": "data",
+            "source-layer": "s57_rivers",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Polygon"
+                ]
+            ],
+            "paint": {
+                "line-color": "#3b3827",
+                "line-width": 1,
+                "line-opacity": 1
+            }
+        },
+        {
+            "id": "s57_lakare_0",
+            "type": "fill",
+            "source": "data",
+            "source-layer": "s57_lakare",
+            "paint": {
+                "fill-color": "#83b295"
+            }
+        },
+        {
+            "id": "s57_berths_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_berths",
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    12
+                ],
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Point"
+                ]
+            ],
+            "layout": {
+                "icon-image": "BRTHNO01",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_cgusta_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_cgusta",
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    12
+                ],
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Point"
+                ]
+            ],
+            "layout": {
+                "icon-image": "CGUSTA02",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true,
+                "icon-offset": [
+                    0,
+                    0
+                ],
+                "icon-size": 1.5
+            }
+        },
+        {
+            "id": "s57_pilpnt_1",
+            "type": "circle",
+            "source": "data",
+            "source-layer": "s57_pilpnt",
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    14
+                ],
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Point"
+                ]
+            ],
+            "layout": {
+                "circle-radius": 4,
+                "circle-color": "#1b1b1b",
+                "circle-opacity": 1,
+                "circle-stroke-width": 1,
+                "circle-stroke-color": "#000000",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boylat_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boylat",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "1"
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYLAT14",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boylat_2",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boylat",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "2"
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYLAT14",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boylat_3",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boylat",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "3"
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYLAT14",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boylat_4",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boylat",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "4"
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYLAT13",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_bcnlat",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_bcnlat",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "3"
+                ]
+            ],
+            "layout": {
+                "icon-image": "BCNLAT15",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boyspp_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boyspp",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYPIL81",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boyisd_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boyisd",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYISD12",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_bcnspp_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_bcnspp",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ]
+            ],
+            "layout": {
+                "icon-image": "BCNSTK03",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_boysaw_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_boysaw",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYSAW12",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_morfac_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_morfac",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "geometry-type"
+                    ],
+                    "Point"
+                ],
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    14
+                ]
+            ],
+            "layout": {
+                "icon-image": "BOYMOR11",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_wrecks_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_wrecks",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    12
+                ]
+            ],
+            "layout": {
+                "icon-image": "WRECKS01",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "1"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN02",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_2",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "2"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN11",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_3",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "3"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN01",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_4",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "4"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN03",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_5",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "5"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN03",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_6",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "6"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN03",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_7",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "WATLEV"
+                    ],
+                    "7"
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN18",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_obstrn_8",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_obstrn",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ]
+            ],
+            "layout": {
+                "icon-image": "OBSTRN02",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true
+            }
+        },
+        {
+            "id": "s57_lights_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_lights",
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "1"
+                ]
+            ],
+            "layout": {
+                "icon-image": "LIGHTS13",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true,
+                "icon-offset": [
+                    8,
+                    15
+                ]
+            }
+        },
+        {
+            "id": "s57_lights_3",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_lights",
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "3"
+                ]
+            ],
+            "layout": {
+                "icon-image": "LIGHTS11",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true,
+                "icon-offset": [
+                    8,
+                    15
+                ]
+            }
+        },
+        {
+            "id": "s57_lights_4",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_lights",
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    6
+                ],
+                [
+                    "==",
+                    [
+                        "get",
+                        "COLOUR"
+                    ],
+                    "4"
+                ]
+            ],
+            "layout": {
+                "icon-image": "LIGHTS12",
+                "icon-allow-overlap": true,
+                "icon-ignore-placement": true,
+                "icon-offset": [
+                    8,
+                    15
+                ]
+            }
+        },
+        {
+            "id": "s57_soundg_1",
+            "type": "symbol",
+            "source": "data",
+            "source-layer": "s57_soundg",
+            "size": {
+                "x": 0,
+                "y": 0
+            },
+            "filter": [
+                "all",
+                [
+                    ">",
+                    [
+                        "zoom"
+                    ],
+                    10
+                ],
+                [
+                    "has",
+                    "DEPTH"
+                ]
+            ],
+            "layout": {
+                "text-field": [
+                    "number-format",
+                    [
+                        "*",
+                        [
+                            "to-number",
+                            [
+                                "get",
+                                "DEPTH"
+                            ]
+                        ],
+                        1
+                    ],
+                    {
+                        "min-fraction-digits": 1,
+                        "max-fraction-digits": 1
+                    }
+                ],
+                "text-font": [
+                    "open-sans"
+                ],
+                "text-size": 12,
+                "text-padding": 4,
+                "text-ignore-placement": false,
+                "icon-ignore-placement": true
+            },
+            "paint": {
+                "text-opacity": 0.5
+            }
+        }
+    ]
+}
