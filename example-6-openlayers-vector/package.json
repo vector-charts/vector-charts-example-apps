@@ -29,6 +29,7 @@
     "@chakra-ui/system": "2.6.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@geoblocks/ol-maplibre-layer": "^1.0.3",
     "@mapbox-controls/compass": "^1.2.0",
     "@mapbox-controls/ruler": "^1.2.0",
     "@mapbox-controls/zoom": "^1.2.0",

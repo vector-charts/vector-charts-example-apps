@@ -36,10 +36,6 @@ function Map() {
             style: styleUrl,
         }).addTo(mapRef.current);
 
-        // leaflet.tileLayer(`${apiPrefix}/api/v1/rasterTiles/{z}/{x}/{y}.png?token=${apiToken}`, {
-        //     maxZoom: 16,
-        // }).addTo(mapRef.current);
-
         return () => {
             mapRef.current.remove();
         };
