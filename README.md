@@ -16,9 +16,11 @@ Each example is a separate React application. To run an app:
 - `example-1-template`: Base React application, boilerplate for other examples.
 - `example-2-mapbox`: Mapbox GL JS rendering 3D globe with vector tiles.
 - `example-3-leaflet-raster`: 2D raster map using Leaflet.
-- `example-4-openlayers-raster`: 2D raster map using OpenLayers.
-- `example-5-openlayers-vector`: Vector tiles using OpenLayers (Experimental, poor performance)
-- `example-6-maplibre`: MapLibre GL JS rendering 3D globe with vector tiles.
-- `example-7-mapbox-fonts`: Example of overriding the fontstack in Mapbox.
-- `example-8-geojson-api`: Example of using the GeoJson API to query raw data.
-- `example-9-shoreline-api`: Example of using the Shoreline API to query raw data.
+- `example-4-leaflet-vector`: 2D vector map using Leaflet and `leaflet-maplibre-gl`
+- `example-5-openlayers-raster`: 2D raster map using OpenLayers.
+- `example-6-openlayers-vector`: Vector tiles using OpenLayers (Experimental, poor performance)
+- `example-7-maplibre`: MapLibre GL JS rendering 3D globe with vector tiles.
+- `example-8-cesiumjs`: (WIP) 3D raster map in Cesium JS
+- `example-9-mapbox-fonts`: Example of overriding the fontstack in Mapbox.
+- `example-10-geojson-api`: Example of using the GeoJson API to query raw data.
+- `example-11-shoreline-api`: Example of using the Shoreline API to query raw data.

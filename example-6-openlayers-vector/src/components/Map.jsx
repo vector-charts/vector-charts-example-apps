@@ -2,21 +2,12 @@ import {
     Box,
 } from '@chakra-ui/react';
 import { useEffect, useRef } from 'react';
-import CompassControl from '@mapbox-controls/compass';
-import ZoomControl from '@mapbox-controls/zoom';
 import { encodeGetParams } from '../utils/urlParameters';
 import Map from 'ol/Map.js';
-import OSM from 'ol/source/OSM.js';
-import TileLayer from 'ol/layer/Tile.js';
 import View from 'ol/View.js';
-import XYZ from 'ol/source/XYZ.js';
-import MVT from 'ol/format/MVT.js';
-import VectorTileLayer from 'ol/layer/VectorTile.js';
-import VectorTileSource from 'ol/source/VectorTile.js';
-import styleJson from './style.json';
-import {applyStyle} from 'ol-mapbox-style';
-
-
+import {MapLibreLayer} from '@geoblocks/ol-maplibre-layer';
+import Graticule from 'ol/layer/Graticule.js';
+import Stroke from 'ol/style/Stroke.js';
 
 const baseStyleUrl = import.meta.env.VITE_VECTOR_CHARTS_STYLE_URL;
 const apiPrefix = import.meta.env.VITE_VECTOR_CHARTS_API_PREFIX;
@@ -34,13 +25,24 @@ function MapComponent() {
     });
 
     useEffect(() => {
-        const layer = new VectorTileLayer();
-        applyStyle(layer, 'https://api.vectorcharts.com/api/v1/styles/base.json?token=f73f12ed4a4f4b6d878bb305d66deea3', {accessToken: 'f73f12ed4a4f4b6d878bb305d66deea3'});
+        const layer = new MapLibreLayer({
+            mapLibreOptions: {
+                style: styleUrl,
+            },
+        });
 
         mapRef.current = new Map({
             target: mapContainer.current,
             layers: [
-                layer
+                layer,
+                new Graticule({
+                    strokeStyle: new Stroke({
+                        color: 'rgba(0, 0, 0, 0.15)',
+                        width: 2,
+                    }),
+                    showLabels: true,
+                    wrapX: false,
+                }),
             ],
             view: new View({
                 center: [-7900858.925180627, 5207158.048251006],
