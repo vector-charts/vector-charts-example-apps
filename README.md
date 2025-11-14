@@ -20,3 +20,5 @@ Each example is a separate React application. To run an app:
 - `example-5-openlayers-vector`: Vector tiles using OpenLayers (Experimental, poor performance)
 - `example-6-maplibre`: MapLibre GL JS rendering 3D globe with vector tiles.
 - `example-7-mapbox-fonts`: Example of overriding the fontstack in Mapbox.
+- `example-8-geojson-api`: Example of using the GeoJson API to query raw data.
+- `example-9-shoreline-api`: Example of using the Shoreline API to query raw data.
