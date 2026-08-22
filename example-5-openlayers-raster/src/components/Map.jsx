@@ -34,7 +34,7 @@ function MapComponent() {
                 new TileLayer({
                     source: new XYZ({
                         tileUrlFunction: (c) => {
-                            return `${apiPrefix}/api/v1/rasterTiles/${c[0]}/${c[1]}/${c[2]}.png?token=${apiToken}`;
+                            return `${apiPrefix}/api/v2/tiles/enc-raster-v2/${c[0]}/${c[1]}/${c[2]}.png?token=${apiToken}`;
                         }
                     })
                 })
