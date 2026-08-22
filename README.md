@@ -1,6 +1,8 @@
-# VectorCharts Example Apps
+## Vector Charts Example Apps
 
 Example applications demonstrating usage of the [Vector Charts API](https://vectorcharts.com/) using Mapbox GL JS and other map renderers.
+
+For more documentation on how to use the Vector Charts API, please see our documentation at [docs.vectorcharts.com](https://docs.vectorcharts.com/).
 
 ## Getting Started
 
