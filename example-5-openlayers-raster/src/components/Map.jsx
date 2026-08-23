@@ -12,7 +12,6 @@ import View from 'ol/View.js';
 import XYZ from 'ol/source/XYZ.js';
 
 
-const baseStyleUrl = import.meta.env.VITE_VECTOR_CHARTS_STYLE_URL;
 const apiPrefix = import.meta.env.VITE_VECTOR_CHARTS_API_PREFIX;
 const apiToken = import.meta.env.VITE_VECTOR_CHARTS_API_TOKEN;
 
@@ -20,7 +19,8 @@ function MapComponent() {
     const mapContainer = useRef(null);
     const mapRef = useRef(null);
 
-    const styleUrl = `${baseStyleUrl}&` + encodeGetParams({
+    const tileQuery = encodeGetParams({
+        token: apiToken,
         theme: 'day',
         showEncBoundaries: false,
         depthLimit: 2.0,
@@ -34,7 +34,7 @@ function MapComponent() {
                 new TileLayer({
                     source: new XYZ({
                         tileUrlFunction: (c) => {
-                            return `${apiPrefix}/api/v2/tiles/enc-raster-v2/${c[0]}/${c[1]}/${c[2]}.png?token=${apiToken}`;
+                            return `${apiPrefix}/api/v2/tiles/enc-raster-v2/${c[0]}/${c[1]}/${c[2]}.png?${tileQuery}`;
                         }
                     })
                 })

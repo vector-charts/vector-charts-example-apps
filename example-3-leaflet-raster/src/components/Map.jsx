@@ -7,7 +7,6 @@ import ZoomControl from '@mapbox-controls/zoom';
 import leaflet from 'leaflet';
 import { encodeGetParams } from '../utils/urlParameters';
 
-const baseStyleUrl = import.meta.env.VITE_VECTOR_CHARTS_STYLE_URL;
 const apiPrefix = import.meta.env.VITE_VECTOR_CHARTS_API_PREFIX;
 const apiToken = import.meta.env.VITE_VECTOR_CHARTS_API_TOKEN;
 
@@ -15,7 +14,8 @@ function Map() {
     const mapContainer = useRef(null);
     const mapRef = useRef(null);
 
-    const styleUrl = `${baseStyleUrl}&` + encodeGetParams({
+    const tileQuery = encodeGetParams({
+        token: apiToken,
         theme: 'day',
         showEncBoundaries: false,
         depthLimit: 2.0,
@@ -27,7 +27,7 @@ function Map() {
             .map(mapContainer.current)
             .setView([42.321617, -70.965271], 12);
 
-        leaflet.tileLayer(`${apiPrefix}/api/v2/tiles/enc-raster-v2/{z}/{x}/{y}.png?token=${apiToken}`, {
+        leaflet.tileLayer(`${apiPrefix}/api/v2/tiles/enc-raster-v2/{z}/{x}/{y}.png?${tileQuery}`, {
             maxZoom: 16,
         }).addTo(mapRef.current);
 
