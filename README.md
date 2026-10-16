@@ -26,3 +26,4 @@ Each example is a separate React application. To run an app:
 - `example-9-mapbox-fonts`: Example of overriding the fontstack in Mapbox.
 - `example-10-geojson-api`: Example of using the GeoJson API to query raw data.
 - `example-11-shoreline-api`: Example of using the Shoreline API to query raw data.
+- `example-12-maplibre-mlt`: MapLibre GL JS consuming ENC tiles as MapLibre Tiles (`.mlt`).
